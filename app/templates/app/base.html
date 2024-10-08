@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bueno</title>
+    <link rel="icon" href="{% static 'imgs/favicon (3).ico' %}">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+</head>
+<body class="bodyrock">
+<header>
+    <a href="{% url 'home' %}">Home</a>
+    <a href="{% url 'about' %}">About</a>
+    <a href="{% url 'minty' %}">Minty</a>
+    <a href="{% url 'artwork' %}">Artwork</a>
+</header>
+
+{% block content %}
+<!--pages-->
+{% endblock content %}
+
+</body>
+</html>

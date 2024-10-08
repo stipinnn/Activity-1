@@ -1,0 +1,47 @@
+.bodyrock {
+  background-color: #9e4209;
+}
+h1{
+  color: #000000;
+}
+h2{
+  color: #000000;;
+}
+header {
+  background-color: #9e4209;
+  padding: 10px 20px;
+  text-align: left;
+}
+
+.minty {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
+.catto {
+ width: 500px; 
+ height: 500px;
+}
+
+header a {
+  color: #000000;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  transition: color 0.3s ease;
+}
+
+header a:hover {
+  color: #000000;
+}
+
+<header>
+  <a href="{% url 'home' %}">Home</a>
+  <a href="{% url 'about' %}">About</a>
+  <a href="{% url 'minty' %}">Minty</a>
+  <a href="{% url 'artwork' %}">Artwork</a>
+
+</header>
+
